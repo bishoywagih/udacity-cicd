@@ -1,2 +1,2 @@
 [all]
-ec2-35-85-227-74.us-west-2.compute.amazonaws.com
+54.163.76.33
