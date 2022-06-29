@@ -75,7 +75,7 @@ jobs:
           name: Test Failed job
           # Fail the job intentionally to simulate an error.
           command: return 1
-     - destroy_environment
+      - destroy_environment
 # Sequential workflow
 workflows:
   # Name the workflow
