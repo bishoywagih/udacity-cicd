@@ -83,7 +83,7 @@ workflows:
     jobs:
       - create_infrastructure
       - smoke_failed_test:
-          - required:
+          - requires:
               - create_infrastructure
 #      - configure_infrastructure
 #      - smoke_test:
