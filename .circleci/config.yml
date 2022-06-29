@@ -60,4 +60,4 @@ workflows:
       - configure_infrastructure
       - smoke_test:
           requires:
-            configure_infrastructure
+            - configure_infrastructure
