@@ -69,7 +69,7 @@ jobs:
 
   smoke_failed_test:
     docker:
-      - image: alpine:latest
+      - image: amazon/aws-cli
     steps:
       - run:
           name: Test Failed job
